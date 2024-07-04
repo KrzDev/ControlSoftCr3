@@ -1,0 +1,122 @@
+body {
+    overflow-x: hidden; 
+}
+  
+
+.header{
+    background-image: url(../images/header3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img-logo{
+    width: 85px;
+}
+
+.vh-50{
+    height: 50vmin;
+}
+
+/*CONTENEDOR DE LA IMAGEN*/
+.mt-custom {
+    margin-top: -60px; /* Ajusta este valor según sea necesario */
+}
+
+.text-custom-color {
+    color: #5e58f8;
+}
+
+.btn-custom-width {
+    width: 120px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; 
+}
+
+.btn-custom-color {
+    background-color: #5e58f8;
+    border-color: #5e58f8;
+    color: #fff; /* Color del texto */
+}
+
+.btn-custom-color:hover,
+.btn-custom-color:focus,
+.btn-custom-color:active {
+    background-color: #fff;
+    border-color: #5e58f8;
+    color: #5e58f8; /* Cambiar color de texto al color del borde */
+}
+
+
+
+.card-img-filter{
+    filter: brightness(0.5);
+
+}
+
+.card{
+    transition-duration: 0.6s;
+    clip-path: polygon(
+        50% 0,
+        100% 0,
+        100% 50%,
+        100% 100%,
+        50% 100%,
+        0 100%,
+        0 50%,
+        0 0
+    );
+}
+.card-effect:hover .card{
+    clip-path: polygon(50% 0, 50% 0 , 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0% 50% , 0% 50%);
+    
+}
+
+
+.card-img-overlay{
+    transition-duration: 0.6s;
+} 
+
+.card-effect:hover .card-img-overlay{
+    transform: scale(0.9);
+}
+
+
+/*.containerSection{
+    background-image: url(../images/MEDIOHEADER.svg);
+}*/
+
+.comments{
+    background-image: url(../images/MEDIOHEADER2.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.comments__img{
+    --tamano: 80px;
+    width: var(--tamano);
+    height: var(--tamano);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0 / 0.5);
+    border: 3px ridge #fff;
+}
+
+.transform-turn{
+    transform: rotate(.5turn);
+}
+
+
+.btn-custom-color2 {
+    background-color: #fff;
+    border-color: #5e58f8;
+    color: #5e58f8; /* Color del texto */
+}
+
+.btn-custom-color2:hover,
+.btn-custom-color2:focus,
+.btn-custom-color2:active {
+    background-color: #5e58f8;
+    border-color: #5e58f8;
+    color: #fff; /* Cambiar color de texto al color del borde  azul azul blanco*/
+}
